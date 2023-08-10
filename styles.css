@@ -39,3 +39,15 @@ input[type="number"] {
 .display-6 {
     font-size: 25px !important;
 }
+select.form-select {
+    background-color: #f8f8fb;
+    border: none;
+    outline: none !important;
+    box-shadow: none;
+}
+
+/* Target the dropdown options */
+select.form-select option {
+    background-color: #f8f8fb;
+    border: none;
+}
