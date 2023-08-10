@@ -46,7 +46,6 @@ select.form-select {
     box-shadow: none;
 }
 
-/* Target the dropdown options */
 select.form-select option {
     background-color: #f8f8fb;
     border: none;
