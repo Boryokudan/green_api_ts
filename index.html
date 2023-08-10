@@ -17,20 +17,20 @@
         <div class="container">
             <div class="row mt-5">
                 <div class="col-md-4">
-                    <input type="text" id="idInstance" class="form-control" placeholder="idInstance" value="7103846696">
-                    <input type="text" id="apiTokenInstance" class="form-control mt-3" placeholder="apiTokenInstance" aria-label="apiTokenInstance" value="7070ba3f745f4b209e5b773c199910e05ef35ec381c9412db2">
+                    <input type="text" id="idInstance" class="form-control" placeholder="idInstance">
+                    <input type="text" id="apiTokenInstance" class="form-control mt-3" placeholder="apiTokenInstance" aria-label="apiTokenInstance">
                     
                     <button onclick="getSettings()" type="button" class="btn btn-green-api col-12 mt-5">getSettings</button>
                     <button onclick="getStateInstance()" type="button" class="btn btn-green-api col-12 mt-3">getStateInstance</button>
                     
                     <form id="sendMessageForm">
-                        <input type="number" id="msgPhoneNumber" class="form-control mt-5" placeholder="Phone number" value="77079117097">
+                        <input type="number" id="msgPhoneNumber" class="form-control mt-5" placeholder="Phone number">
                         <textarea id="messageContent" class="form-control green-api-text-area-msg mt-3" placeholder="Message"></textarea>
                         <button type="submit" class="btn btn-green-api col-12 mt-3">sendMessage</button>
                     </form>
                     
                     <form id="sendFileByUrlForm">
-                        <input type="number" id="filePhoneNumber" class="form-control mt-5" placeholder="Phone number" value="77079117097">
+                        <input type="number" id="filePhoneNumber" class="form-control mt-5" placeholder="Phone number">
                         <input id="url" type="text" class="form-control mt-3" placeholder="URL"></textarea>
                         <button type="submit" class="btn btn-green-api col-12 mt-3">sendFileByUrl</button>
                     </form>
