@@ -1,0 +1,41 @@
+body {
+    background-color: whitesmoke;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.green-api-bg-color {
+    background-color: #4caf4e;
+    color: #ffffff;
+}
+.green-api-text-area-xl {
+    height: 695px;
+    resize: none;
+}
+.green-api-text-area-msg {
+    height: 150px;
+    resize: none;
+}
+.green-api-text-area-url {
+    height: 30px;
+    resize: none;
+}
+.btn-green-api {
+    background-color: #4caf4e;
+    color: #ffffff;
+    
+}
+.btn-green-api:hover {
+    background-color: #019905;
+    color: #ffffff;
+}
+.display-6 {
+    font-size: 25px !important;
+}
